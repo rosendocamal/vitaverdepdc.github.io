@@ -382,7 +382,7 @@ footer {
 
 	.s-introdution {
 		grid-template-rows: auto;
-		grid-template-columns: auto auto;
+		grid-template-columns: 50% 50%;
 		grid-gap: 0;
 	}
 
@@ -392,8 +392,7 @@ footer {
 		grid-row: 1;
 		grid-column: 1;
 		font-size: 180%;
-		padding-left: 3rem;
-		width: 160%;
+		padding: 2rem 1.4rem 2rem 3rem;
 	}
 
 	.box-image {
@@ -403,11 +402,8 @@ footer {
 
 	.box-image img {
 		max-width: initial;
-		position: relative;
-		right: -18%;
-		height: 50vw;
-		display: flex;
-		align-items: center;
+		width: 200%;
+		height: 100%;
 	}
 
 	.container-cards {
@@ -433,28 +429,29 @@ footer {
 
 	.s-loyalty {
 		display: grid;
+		grid-template-rows: auto;
 		grid-template-columns: 1fr 1fr;
-		overflow: hidden;
-	}
-
-	.container-image {
-		grid-column: 1;
-	}
-
-	.container-image img {
-		max-width: initial;
-		width: 200%;
-		position: relative;
-		left: -82%;
-	}
-
-	.container-text {
-		grid-column: 2;
 	}
 
 	.box-images-gallery {
 		margin: auto;
 		max-width: 70%;
+	}
+
+	.container-image {
+		overflow: hidden;
+		grid-column: 1;
+		display: flex;
+		align-items: center;
+	}
+
+	.container-image img {
+		max-width: 200%;	
+		margin-left: -50%;
+	}
+
+	.container-text {
+		grid-column: 2;
 	}
 
 	.mySlides {
