@@ -353,12 +353,7 @@ h3 {
 }
 
 .s-socialmedia ul li a svg {
-	max-width: 2rem;
-	opacity: 0.8;
-}
-
-.s-socialmedia ul li a svg:hover {
-	opacity: 1;
+	width: 2rem;
 }
 
 footer {
