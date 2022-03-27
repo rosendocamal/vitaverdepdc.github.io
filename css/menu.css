@@ -1,4 +1,5 @@
 h2 {
+	font-family: 'Aesthetic Violet';
 	text-align: center;
 	font-size: 300%;
 }
@@ -133,4 +134,36 @@ h2 {
 
 .cta:hover {
 	background-color: #133a24;
+}
+
+@media screen and (min-width: 546px) {
+	.container-cards-products {
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.product1 {
+		grid-row: 1;
+		grid-column: 1;
+	}
+
+	.product2 {
+		grid-row: 1;
+		grid-column: 2;
+	}
+
+	.product3 {
+		grid-row: 1;
+		grid-column: 3;
+	}
+
+	.product4 {
+		grid-row: 2;
+		grid-column: 1;
+	}
+
+	.product5 {
+		grid-row: 2;
+		grid-column: 2;
+	}
 }

@@ -2,7 +2,8 @@
 	padding: 2rem 3rem;
 }
 
-.p-cta-txt {
+h2.p-cta-txt {
+	font-family: 'Aesthetic Violet';
 	text-align: center;
 	font-size: 290%;
 }
@@ -17,8 +18,7 @@ svg {
 }
 
 .list-socialmedia {
-	list-style: none;
-	padding-top: 3rem;
+	list-style: none; 
 }
 
 .item-socialmedia {
@@ -57,7 +57,7 @@ svg {
 }
 
 .wa a:hover {
-	background-color: #075E54;
+	background-color: #1CAD52;
 }
 
 .ig a {
@@ -65,7 +65,7 @@ svg {
 }
 
 .ig a:hover {
-	background-color: #C13584;
+	background-color: #B52656;
 }
 
 .fb a {
@@ -73,15 +73,15 @@ svg {
 }
 
 .fb a:hover {
-	background-color: ;	
+	background-color: #365492;	
 }
 
 .tk a {
-	background-color: #010101;
+	background-color: #1E1E1E;
 }
 
 .tk a:hover {
-	background-color: ;
+	background-color: #010101;
 }
 
 .pt a {
@@ -89,7 +89,7 @@ svg {
 }
 
 .pt a:hover {
-	background-color: ;
+	background-color: #C4001D;
 }
 
 .tw a {
@@ -97,5 +97,17 @@ svg {
 }
 
 .tw a:hover {
-	background-color: ;
+	background-color: #1788CD;
+}
+
+@media screen and (min-width: 546px) {
+	.list-socialmedia {
+		margin-top: 2rem;
+		justify-content: center;
+	}
+
+	.item-socialmedia {
+		max-width: 70%;
+		margin: 1rem auto;
+	}
 }
