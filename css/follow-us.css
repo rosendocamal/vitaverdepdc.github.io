@@ -1,0 +1,101 @@
+.container-follow {
+	padding: 2rem 3rem;
+}
+
+.p-cta-txt {
+	text-align: center;
+	font-size: 290%;
+}
+
+svg {
+	width: 2.5rem;
+	fill: #fff;
+}
+
+.icon svg {
+	fill: initial;
+}
+
+.list-socialmedia {
+	list-style: none;
+	padding-top: 3rem;
+}
+
+.item-socialmedia {
+	width: 100%;
+	margin: 1rem 0;
+}
+
+.item-socialmedia a {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 30% 70%;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+	background: red;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.item-socialmedia a span:first-child {
+	grid-column: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-socialmedia a span:last-child {
+	grid-column: 2;
+	margin-left: 16%;
+	font-size: 110%;
+}
+
+.wa a {
+	background-color: #25d366;
+}
+
+.wa a:hover {
+	background-color: #075E54;
+}
+
+.ig a {
+	background-color: #E1306C;
+}
+
+.ig a:hover {
+	background-color: #C13584;
+}
+
+.fb a {
+	background-color: #4267b2;
+}
+
+.fb a:hover {
+	background-color: ;	
+}
+
+.tk a {
+	background-color: #010101;
+}
+
+.tk a:hover {
+	background-color: ;
+}
+
+.pt a {
+	background-color: #E60023;
+}
+
+.pt a:hover {
+	background-color: ;
+}
+
+.tw a {
+	background-color: #1DA1F2;
+}
+
+.tw a:hover {
+	background-color: ;
+}
