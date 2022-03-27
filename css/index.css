@@ -374,6 +374,28 @@ h3 {
 	}
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
+	.box-text {
+		padding: 2rem 4rem 2rem 3rem;
+	}
 
+	.box-text p {
+		font-size: 130%;
+	}
+	
+	main h2 {
+		font-size: 350%;
+	}
+
+	.s-work p, .s-loyalty p, .s-loyalty li {
+		font-size: 125%;
+	}
+
+	.caption-container #caption {
+		font-size: 125%;
+	}
+
+	.s-socialmedia h2 {
+		font-size: 250%;
+	}
 }

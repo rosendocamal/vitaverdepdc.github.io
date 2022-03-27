@@ -111,3 +111,10 @@ svg {
 		margin: 1rem auto;
 	}
 }
+
+@media screen and (min-width: 900px) {
+	.item-socialmedia a {
+		margin: auto;
+		width: 70%;
+	}
+}
