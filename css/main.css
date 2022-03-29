@@ -24,6 +24,10 @@ h1 {
 	display: none;	
 }
 
+h2, h3, h4 {
+	font-family: 'Aesthetic Violet';
+}
+
 .topnav {
 	background-color: #f7f7f7;
 	overflow: hidden;
