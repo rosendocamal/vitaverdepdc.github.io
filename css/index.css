@@ -237,6 +237,25 @@ h3 {
 	font-size: 200%;
 }
 
+.section-paymentmethods {
+	padding: 2rem 3rem;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.section-paymentmethods .main-pm1 {
+	height: 4vh;	
+}
+
+.section-paymentmethods .main-pm1 div {
+	width: 100%;
+	height: 4vh;
+}
+
+.section-paymentmethods .main-pm1 div img {
+	max-width: 50%;
+}
+
 .s-socialmedia {
 	padding: 2rem 3rem;
 }
