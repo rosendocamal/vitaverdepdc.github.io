@@ -237,23 +237,42 @@ h3 {
 	font-size: 200%;
 }
 
-.section-paymentmethods {
+.s-paymentmethods {
 	padding: 2rem 3rem;
+}
+
+.s-paymentmethods img {
+	max-width: 100%;
+	height: auto;
+}
+
+.section-paymentmethods {
+	width: auto;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
+	margin: 2rem 0;
 }
 
-.section-paymentmethods .main-pm1 {
-	height: 4vh;	
+.main-pm1 {
+	grid-row: 1;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
-.section-paymentmethods .main-pm1 div {
+.main-pm2 {
+	grid-row: 2;
+	grid-template-columns: 1fr 1fr;
+}
+
+.main-pm3 {
+	grid-row: 3;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-pm1, .main-pm2, .main-pm3 {
+	display: grid;
+	grid-gap: 1rem;
+	align-items: center;
 	width: 100%;
-	height: 4vh;
-}
-
-.section-paymentmethods .main-pm1 div img {
-	max-width: 50%;
 }
 
 .s-socialmedia {
