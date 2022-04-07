@@ -237,6 +237,44 @@ h3 {
 	font-size: 200%;
 }
 
+.s-paymentmethods {
+	padding: 2rem 3rem;
+}
+
+.s-paymentmethods img {
+	max-width: 100%;
+	height: auto;
+}
+
+.section-paymentmethods {
+	width: auto;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	margin: 2rem 0;
+}
+
+.main-pm1 {
+	grid-row: 1;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-pm2 {
+	grid-row: 2;
+	grid-template-columns: 1fr 1fr;
+}
+
+.main-pm3 {
+	grid-row: 3;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-pm1, .main-pm2, .main-pm3 {
+	display: grid;
+	grid-gap: 1rem;
+	align-items: center;
+	width: 100%;
+}
+
 .s-socialmedia {
 	padding: 2rem 3rem;
 }
