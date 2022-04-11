@@ -14,7 +14,7 @@
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a.blantershow-chat {
@@ -47,7 +47,7 @@ a.blantershow-chat svg {
     margin: 0 0 10px;
     text-align: center;
     font-size: 200%;
-    font-family: 'Aesthetic Violet';
+    font-family: "Aesthetic Violet";
 }
 .header-chat p {
     font-size: 14px;
