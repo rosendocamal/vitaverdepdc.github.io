@@ -1,120 +1,120 @@
 .container-follow {
-	padding: 2rem 3rem;
+    padding: 2rem 3rem;
 }
 
 h2.p-cta-txt {
-	font-family: 'Aesthetic Violet';
-	text-align: center;
-	font-size: 290%;
+    font-family: "Aesthetic Violet";
+    text-align: center;
+    font-size: 290%;
 }
 
 svg {
-	width: 2.5rem;
-	fill: #fff;
+    width: 2.5rem;
+    fill: #fff;
 }
 
 .icon svg {
-	fill: initial;
+    fill: initial;
 }
 
 .list-socialmedia {
-	list-style: none; 
+    list-style: none;
 }
 
 .item-socialmedia {
-	width: 100%;
-	margin: 1rem 0;
+    width: 100%;
+    margin: 1rem 0;
 }
 
 .item-socialmedia a {
-	display: grid;
-	grid-template-rows: auto;
-	grid-template-columns: 30% 70%;
-	align-items: center;
-	justify-content: center;
-	padding: 0.5rem;
-	background: red;
-	border-radius: 15px;
-	text-decoration: none;
-	color: #fff;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background: red;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .item-socialmedia a span:first-child {
-	grid-column: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-socialmedia a span:last-child {
-	grid-column: 2;
-	margin-left: 16%;
-	font-size: 110%;
+    grid-column: 2;
+    margin-left: 16%;
+    font-size: 110%;
 }
 
 .wa a {
-	background-color: #25d366;
+    background-color: #25d366;
 }
 
 .wa a:hover {
-	background-color: #1CAD52;
+    background-color: #1cad52;
 }
 
 .ig a {
-	background-color: #E1306C;
+    background-color: #e1306c;
 }
 
 .ig a:hover {
-	background-color: #B52656;
+    background-color: #b52656;
 }
 
 .fb a {
-	background-color: #4267b2;
+    background-color: #4267b2;
 }
 
 .fb a:hover {
-	background-color: #365492;	
+    background-color: #365492;
 }
 
 .tk a {
-	background-color: #1E1E1E;
+    background-color: #1e1e1e;
 }
 
 .tk a:hover {
-	background-color: #010101;
+    background-color: #010101;
 }
 
 .pt a {
-	background-color: #E60023;
+    background-color: #e60023;
 }
 
 .pt a:hover {
-	background-color: #C4001D;
+    background-color: #c4001d;
 }
 
 .tw a {
-	background-color: #1DA1F2;
+    background-color: #1da1f2;
 }
 
 .tw a:hover {
-	background-color: #1788CD;
+    background-color: #1788cd;
 }
 
 @media screen and (min-width: 546px) {
-	.list-socialmedia {
-		margin-top: 2rem;
-		justify-content: center;
-	}
+    .list-socialmedia {
+        margin-top: 2rem;
+        justify-content: center;
+    }
 
-	.item-socialmedia {
-		max-width: 70%;
-		margin: 1rem auto;
-	}
+    .item-socialmedia {
+        max-width: 70%;
+        margin: 1rem auto;
+    }
 }
 
 @media screen and (min-width: 900px) {
-	.item-socialmedia a {
-		margin: auto;
-		width: 70%;
-	}
+    .item-socialmedia a {
+        margin: auto;
+        width: 70%;
+    }
 }
