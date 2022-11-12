@@ -1,7 +1,7 @@
 # Vita Verde
 
 
-[¡Visítanos!](https://vitaverdepdc.github.io)
+[¡Visítanos!](https://vitaverde-pdc.github.io)
 
 ![Captura "Home"](/img/screenshot-1.jpg)
 ![Captura "Recetas"](/img/screenshot-2.jpg)
