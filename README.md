@@ -43,6 +43,7 @@ Este proyecto usa:
 - Ciertos diseños e imágenes fueron realizado con **Canvas**.
 - Este proyecto emplea fuentes de [DaFont](https://www.dafont.com/es/).
 - Los íconos fueron creados por [Font Awesone](https://fontawesome.com/).
+- La integración de WhatsApp es gracias a [Obed Alvarado](https://obedalvarado.pw/blog/integrar-whatsapp-en-tu-sitio-web-usando-html-javascript-y-css/)
 - La mayor parte de las imágenes son pertenecientes al banco de imágenes de [Pixabay](https://pixabay.com/es/).
 
 
