@@ -12,8 +12,8 @@ Este es un proyecto web que simula una tienda en línea para una empresa de comi
 
 Si deseas probar el proyecto de manera local, puedes utilizar las siguientes instrucciones.
 
-1. Clona este repositorio: ```git clone https://github.com/rosendocamal.github.io/vitaverdepdc.github.io.git```
-2. Navega al directorio del proyecto: ```cd vitaverdepdc.github.io.git```
+1. Clona este repositorio: ```git clone https://github.com/rosendocamal.github.io/vitaverde.github.io.git```
+2. Navega al directorio del proyecto: ```cd vitaverde.github.io.git```
 3. Abre `index.html` en tu navegador.
 
 ## Uso
@@ -30,7 +30,7 @@ Este proyecto simula una tienda en línea, en donde el usuario elige el producto
 
 ## Ver Proyecto
 
-Puedes ver el proyecto en vivo [aquí.](https://rosendocamal.github.io/vitaverdepdc.github.io/)
+Puedes ver el proyecto en vivo [aquí.](https://rosendocamal.github.io/vitaverde.github.io/)
 
 ## Licencia
 
